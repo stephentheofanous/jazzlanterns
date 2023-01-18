@@ -2,8 +2,8 @@
 $to      = 'jazzlanterns@gmail.com';
 $from    = $_POST['email'];
 $email   = $_POST['email'];
-$subject = 'Received New Event Enquiry';
-$message = "Name: ".$_POST['name']."\nEmail: ".$_POST['email']."\nEvent date: ".$_POST['date']."\nMessage: ".$_POST["message"]."";
+$subject = 'You Received A New Event Enquiry';
+$message = "Message: ".$_POST["message"]."\nName: ".$_POST['name']."\nEmail: ".$_POST['email']."\nEvent date: ".$_POST['date']."";
 $headers = 'From: '.$from."\r\n" .
         'Reply-To: '.$email."\r\n" .
         'X-Mailer: PHP/' . phpversion();
@@ -15,7 +15,7 @@ if(mail($to, $subject, $message, $headers))
 $to1      = $_POST['email'];
 $from1    = 'jazzlanterns@gmail.com';
 $email1   = "jazzlanterns@gmail.com";
-$subject1 = 'Jazz Lanterns';
+$subject1 = 'Your Enquiry - The Jazz Lanterns';
 $message1 = "Thank you for getting in touch! We will respond to your message as soon as we can.\n\nName: ".$_POST['name']."\nEmail: ".$_POST['email']."\nEvent date: ".$_POST['date']."\nMessage: ".$_POST["message"]."";
 $headers1 = 'From: '.$from1."\r\n" .
         'Reply-To: '.$email1."\r\n" .
