@@ -222,6 +222,7 @@
 }
 
 .headshots-imgs {
+  padding-bottom: calc(14rem);
   width: 100%;
   height: auto;
 }
