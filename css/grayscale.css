@@ -107,15 +107,11 @@
   }
 
 .masthead {
-  position: relative;
-  padding-bottom: calc(14rem);
-/*  padding: 15rem 0;*/
-  width: 100%;
-  height: auto;
-  background: url("../img/trio.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+/*  background-image: url("../img/keys.jpg");*/
+  background-image: url("../img/trio.jpg");
+  background-position: center center;
   background-size: cover;
 }
 
