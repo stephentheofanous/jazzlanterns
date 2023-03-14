@@ -1,8 +1,3 @@
-// MY HOVER BG GRADIENT
-// var body = document.getElementById("my-gradient");
-// var aboot =document.getElementById("about");
-// var projex =document.getElementById("projects");
-
 (function($) {
   "use strict"; // Start of use strict
 
