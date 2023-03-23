@@ -185,7 +185,8 @@
 }
 
 .projects-section {
-  padding: 8rem 0;
+  padding: 6rem 0;
+  padding-bottom: 4rem 0;
 /*  background: rgba(0,0,0,0.9);*/
 }
 
@@ -312,7 +313,8 @@ footer {
 }
 
 .setlists-section {
-  padding-top: 8rem;
+  padding-top: 6rem;
+  padding-top: 4rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -488,26 +490,9 @@ input[type=text], input[type=email], select, textarea {
   resize: vertical
 }
 
-.headshots-section {
-  font-family: 'Montserrat', sans-serif;
-  padding: 8rem;
-  background: linear-gradient(to top, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
-}
-
-.headshots-section .featured-text {
-  font-family: 'Montserrat', sans-serif;
-  padding: 12rem;
-}
-
-.headshots-imgs {
-  padding-bottom: calc(1rem);
-  width: 70%;
-  height: auto;
-}
-
 .column {
   float: left;
-  width: 25%;
+  width: 50%;
   padding: 5px;  
   text-align: center;
 }
@@ -528,18 +513,17 @@ input[type=text], input[type=email], select, textarea {
 @media (min-width: 992px) {
   .headshots-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
   }
 }
 
 .headshots-section .project-text {
-  padding: 3rem;
+  padding: 0rem;
   font-size: 90%;
 }
 
 @media (min-width: 992px) {
   .headshots-section .project-text {
-    padding: 5rem;
+    padding: 0rem;
   }
   .headshots-section .project-text hr {
     border-color: #64a19d;
@@ -555,6 +539,7 @@ input[type=text], input[type=email], select, textarea {
 
 .testimonials-section {
   padding-top: 6rem;
+  padding-bottom: 0rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
   position:  relative;
   min-height: 30em;
@@ -566,3 +551,38 @@ input[type=text], input[type=email], select, textarea {
     border-width: .10rem;
     width: 12%;
   }
+
+  .headshots2-section {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+.headshots2-section p {
+  margin-bottom: 4rem;
+}
+
+.headshots2-section .featured-text {
+  padding: 2rem;
+}
+
+.headshots2-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .headshots2-section .project-text {
+    padding: 5rem;
+  }
+  .headshots2-section .project-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+.headshots2-imgs {
+  min-width: 150px;
+  max-width: 300px;
+}
