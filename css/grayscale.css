@@ -510,28 +510,6 @@ input[type=text], input[type=email], select, textarea {
   display: table;
 }
 
-@media (min-width: 992px) {
-  .headshots-section .featured-text {
-    padding: 0 0 0 2rem;
-  }
-}
-
-.headshots-section .project-text {
-  padding: 0rem;
-  font-size: 90%;
-}
-
-@media (min-width: 992px) {
-  .headshots-section .project-text {
-    padding: 0rem;
-  }
-  .headshots-section .project-text hr {
-    border-color: #64a19d;
-    border-width: .25rem;
-    width: 30%;
-  }
-}
-
 .carousel-inner {
   position: absolute;
   padding-top: 2em;
