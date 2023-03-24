@@ -39,23 +39,4 @@ else
 {
 	echo'<script>swal("oops", "email not sent!", "info")</script>';
 }
-
-if(mail($to1, $subject1, $message1, $headers1))
-{
-	echo'<script>$("#form2").hide()</script>';
-	echo'<div class="alert alert-success"><strong>Thank you for your message,<br>we will be in touch.</strong></div>';
-	echo'<script>$("#reset")[0].reset()</script>';
-}
-else
-{
-	echo'<script>swal("oops", "confirmation email not sent!", "info")</script>';
-}
-
-
-	// end resend
-}
-else
-{
-	echo'<script>swal("oops", "email not sent!", "info")</script>';
-}
 ?>
